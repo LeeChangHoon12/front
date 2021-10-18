@@ -4,7 +4,7 @@
 
 
 
-/* Specificity (element - class) */
+/* Specificity (element - class) */ 
 /* class가 우선으로 적용되지만 colour처럼 오타나거나하면 p태그의 color가 적용됨 */
 p{
 	color: red;
