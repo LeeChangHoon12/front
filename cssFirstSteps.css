@@ -1,0 +1,83 @@
+
+
+
+
+
+
+/* Specificity (element - class) */
+/* class가 우선으로 적용되지만 colour처럼 오타나거나하면 p태그의 color가 적용됨 */
+p{
+	color: red;
+}
+
+.specail{
+	colour: blue;  /*color의 오타 */
+	font-size: 300%;
+}
+
+
+
+.outer{
+	border: 5px solid black;
+}
+
+
+
+/* calc() function */
+.box {
+	padding: 10px;
+	width: calc(90%-30px);
+	background-color: rebeccapurple;
+	color:white;
+}
+
+
+
+/* Transform Functions*/
+.box2 {
+	margin: 30px;
+	width: 100px;
+	height: 100px;
+	background-color: rebeccapurple;
+	transform: rotate(0.8turn);
+	/*transform: matrix(1, 2, 3, 4, 5, 6);
+	transform: translate(120px, 50%);
+	transform: skew(30deg, 20deg);
+	transform: scale(0.5) translate(-100%, 		-100%); */
+}
+
+
+.container{
+	padding:10px;
+	border: 1px solid black;
+}
+
+.name{
+	color: #6633CC;
+	border-bottom:1px solid #6633CC;
+}
+
+
+.text{
+	color: #003366;
+}
+
+
+
+.contactInfo{
+	margin:10px;
+	padding:10px;
+	border:3px solid #003366;
+	
+}
+
+.contactTitle{
+	border-bottom:1px solid black;
+}
+
+
+
+
+
+
+
