@@ -1,20 +1,18 @@
-/*
-cascade / inheritance
-
-selector
-
-box model
-
-background / border?
- 
-*/
-
-body{
-	color:blue;
-	
+span {
+    background-color: yellow;
 }
 
 
-span{
-	color:black;
+strong, em {
+	color: rebeccapurple;
+}
+
+
+a:hover{
+	color:red;
+}
+
+
+*{
+	margin:100px;
 }
