@@ -1,0 +1,48 @@
+
+
+html{
+    font-size: 10px;
+}
+
+h1{
+    color:#F0ECEB;
+    font-family: fantasy;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 5px red;
+    text-align: center;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    font-size: 1.4rem;
+    color:#77878F;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: line-through;
+    text-align: center;
+}
+
+
+
+.menuBtn{
+    display: inline-block;
+}
+
+.title{
+    display: inline-block;
+    margin-right: 50%;
+}
+
+h1 + p {
+    font-weight: bold;
+  }
+
+.wrapper{
+    margin:0 auto;
+    width: 300px;
+    height: 800px;
+}
