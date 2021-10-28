@@ -1,0 +1,83 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+</style>
+
+ * {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color:rgb(48, 48, 167);
+}
+
+li, a, button {
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:beige;
+    text-decoration: none;
+}
+
+
+#header_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 10%;
+    background-color:darkslategrey;
+    border-radius: 10px;
+    margin:20px;
+}
+
+
+#header_2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:30px 10%;
+    background-color: midnightblue;
+    border-radius: 10px;
+    margin:20px;
+}
+
+
+.logo1{
+    cursor:pointer;
+    color:mintcream;
+}
+
+.logo2{
+    cursor:pointer;
+    color:mintcream;
+    margin-right: auto;
+}
+
+.nav_items{
+    list-style: none;
+}
+
+.nav_items li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_items li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_items li a:hover {
+    color: orange;
+    font-size: 20px;
+}
+
+button{
+    padding:9px 25px;
+    background-color: rgba(0,136,169,0.6);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: orange;
+}
