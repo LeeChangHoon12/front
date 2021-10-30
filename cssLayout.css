@@ -68,3 +68,45 @@
 .inline-flex{
   border: 1px solid black;
 }
+
+
+.container_1 {
+  background-color: burlywood;
+  margin-top : 30px;
+
+  display: grid;
+  grid-template-columns: 100px auto 100px;
+  grid-template-rows: 50px 50px;
+  grid-gap: 3px;
+}
+
+.container_2 {
+  background-color: burlywood;
+  margin-top : 30px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 50px 50px;
+  grid-template-rows: repeat(2,50px);
+
+  grid-template: repeat(2,50px) / repeat(3,1fr);
+
+  grid-gap: 3px;
+}
+
+.container_1 div, .container_2 div {
+  margin: 5px;
+  text-align: center;  
+  color:cornsilk;
+  font-size: 1.3em;
+}
+
+.wrapper .block_blue {
+  background-color: cadetblue;
+}
+
+
+.wrapper .block_red {
+  background-color: chocolate;
+}
