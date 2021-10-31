@@ -134,6 +134,7 @@
 
 
 .wrapper .block_red {
+<<<<<<< HEAD:css/cssLayout.css
   background-color: #FFB085;
 }
 
@@ -164,4 +165,7 @@
   grid-gap: 3px;
 
 
+=======
+  background-color: chocolate;
+>>>>>>> 2e525ee3748806cf63a8b569eb99611ccaad0b59:css/cssLayout.css
 }
