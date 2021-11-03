@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -23,6 +24,7 @@ body {
 
 p {
   text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .main {
@@ -32,7 +34,7 @@ p {
 .login {
     display: flex;
     flex-direction: column;
-    border: 1px solid rgba(128,128,128, .9);
+    border: 1px solid rgba(128,128,128, .4);
     padding: 0px 40px 40px 40px;
     margin-top: 15%;
     margin-bottom: 5px;
@@ -44,6 +46,7 @@ p {
   margin: 5px;
   height: 40px;
   width: 300px;  
+
 }
 .buttonWrapper {
     flex-direction: row;
@@ -52,7 +55,7 @@ p {
 .loginButton {
   margin: 5px;
   margin-top: 15px;
-  background-color:#3897f0;
+  background-color: rgba(56, 151, 240,0.3);
   border-radius: 5px;
   border: none;
   height: 35px;
@@ -69,7 +72,7 @@ p {
 .signin {
   display: flex;
   flex-direction: column;
-  border: 1px solid rgba(128,128,128, .8);
+  border: 1px solid rgba(128,128,128, .4);
   background-color:rgb(250, 250, 250);
 
 }
@@ -127,3 +130,29 @@ p {
   color: grey;
   text-align: center;
 }
+
+
+.active {
+  cursor: pointer;
+}
+
+.login p {
+  cursor: pointer;
+}
+
+.signin span {
+  cursor: pointer;
+}
+
+.downloadButton {
+  background-color: black;
+  border-radius: 5px;
+  color:white;
+  padding: 5px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 0.5em;
+  width: 110px;
+  text-align: center;
+  cursor: pointer;
+}
+
